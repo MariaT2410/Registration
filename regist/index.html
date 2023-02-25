@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+	<main id="main-holder">
+		<h1 id="login-helder">Login</h1>
+		<form action ='login.php' method='POST'> <!-- точка входа-->
+
+			<input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"><br>
+
+			<input type="password" name="password" id="password" id="password-field" class="login-form-field" placeholder="Password"><br>
+
+			<input type="submit" name="Log in" value="Login" id="login-form-submit">
+			<div>
+				<span id="login-reg-helder" class="psw">Forgot <a id="login-reg-helder" href="#">password?</a></span>
+				<a id ="login-reg-holder" href ='register.php'>Register?</a>
+			</div>
+
+		</form>
+	</main>
+</body>
+</html>
